@@ -13,6 +13,7 @@ public class Main {
 		NetworkService service = context.getBean("networkservice",NetworkService.class);
 		service.connect();
 		System.out.println("===================================");
+		System.out.println("===================================");
 		service.disconnect();
 
 	}
