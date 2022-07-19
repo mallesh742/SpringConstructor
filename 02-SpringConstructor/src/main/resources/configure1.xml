@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+   <bean id = "networkservice" class = "in.varnaIt._SpringConstructor.NetworkService">
+      <constructor-arg name = "ip" value = "179.36.34.22"/>
+      <constructor-arg name = "adapter" ref = "networkAdapter"/>
+    </bean>
+    <bean id = "networkAdapter" class = "in.varnaIt._SpringConstructor.NetworkAdapter">
+    <constructor-arg name = "port" value = "1919"/>
+    </bean>
+      
+   </beans>
