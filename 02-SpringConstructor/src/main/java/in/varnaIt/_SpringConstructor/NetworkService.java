@@ -17,6 +17,7 @@ public void disconnect() {
 		
 		System.out.println("This system is disconnected from :" + this.ip + "with port : " + "adapter");
 		System.out.println("This system is disconnected from :" + this.ip + "with port : " + "adapter");
+		System.out.println("This system is disconnected from :" + this.ip + "with port : " + "adapter");
 	}
 
 }
